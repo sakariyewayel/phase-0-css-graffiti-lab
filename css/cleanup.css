@@ -1,1 +1,54 @@
-/* write your override styles here */
+/* hide graffiti tags */
+#wall .tag-1,
+#wall .tag-2,
+#wall .tag-3 {
+  display: none;
+}
+
+/* other cleanup styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#wall {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  background-image: url("../images/wall.jpg");
+  background-size: cover;
+  margin: 0 auto;
+}
+
+#logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 150px;
+  height: 150px;
+  background-image: url("../images/logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#header {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  font-size: 24px;
+  text-align: right;
+}
+
+#header h1 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+#header p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
